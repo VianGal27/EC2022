@@ -1,13 +1,15 @@
 ---
-title: "Conexiones en R "
+title: 'Conexiones en R '
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
   html_document:
     toc: yes
     toc_depth: 2
-    toc_float: true
+    toc_float: yes
     theme: spacelab
-
 ---
 
 

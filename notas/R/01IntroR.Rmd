@@ -4,9 +4,12 @@ output:
   html_document:
     toc: yes
     toc_depth: 2
-    toc_float: true
+    toc_float: yes
     theme: spacelab
   github_document: default
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
 ```{r setup, include=FALSE}
